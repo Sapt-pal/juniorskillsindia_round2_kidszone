@@ -1,0 +1,95 @@
+/*Webpage Font*/
+html{
+    font-family: Verdana;
+}
+/* Adding a dark blue background colour to navigation bar */
+#topnav {
+    background-color: #1c1d52;
+    overflow: hidden;
+    text-align: right;
+    
+  }
+/* Styling links within navigation bar */
+#topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 1.3vw 1.6vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+  }
+/* Changing colour of tabs on hover */
+#topnav a:hover {
+    background-color: #A09DFF;
+    color: black;
+    text-align: left;
+    border-top: 0.5vw solid #3059BC;
+    border-radius: 0.5vw;
+    transition: 0.15s;
+  }
+/* Adding colour to active/current tab */
+#topnav a.active {
+    background-color: #669cdf;
+    color: white;
+    text-align: left;
+    border: 3px solid #4981A6;
+    border-radius: 10px
+  }
+/*Styling Background*/
+#bg {
+    margin:0px;
+    background-color: #f7e2b1;
+    text-align: left;
+  }
+/*Adding Banner Image*/
+#banner img{
+    padding: 0px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*Banner overlay*/
+#banner p {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #1c1d52;
+}
+@media screen and (min-width:1024) {
+    #banner p{
+        top: 50%;
+    }    
+}
+.social {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.social a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px
+}
+#contact_us {
+    font-size: 30px;
+    color: #1c1d52;
+}
+#contact_us h3 {
+    text-align: center;
+    color:deepskyblue;
+}
+#contact_us img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+    color: #f2f2f2;
+    background-color: #1c1d52;
+    text-align: center;
+    padding: 50px;
+    margin-top: 5px;
+  }
